@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html ng-app="app">
+  <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+      <title>WebSocket Chat - Spring Boot</title>
+
+
+      <link href="css/bootstrap.min.css" rel="stylesheet"/>
+      <link href="front/css/telaInicial.css" rel="stylesheet">
+      <link rel="stylesheet" href="front/css/font-awesome.min.css">
+
+      <script src="front/js/jquery-1.11.1.min.js"></script>
+      <script src="front/js/bootstrap.min.js"></script>
+      <script src="front/js/lol.js"></script>
+      <script src="front/lib/angular1-5.js"></script>
+      <script src="front/lib/angular-locale_pt-br.js"></script>
+      <script src="front/lib/angular-route.js"></script>
+      <script src="front/lib/mask.js"></script>
+      <script src="front/lib/angular-storage.js"></script>
+      <script src="front/lib/a0-angular-storage/angular-storage.js"></script>
+      <script src="front/lib/jwt-decode/jwt-decode.min.js"></script>
+
+      <script src="front/scripts/app.js"></script>
+      <script src="front/scripts/routers/router.js"></script>
+      <script src="front/scripts/service/loginService.js"></script>
+      <script src="front/scripts/controller/loginController.js"></script>
+      <script src="front/scripts/defaultUrl/defaultUrl.js"></script>
+  </head>
+  <body>
+
+    <div ng-view ></div>
+
+  </body>
+</html>
